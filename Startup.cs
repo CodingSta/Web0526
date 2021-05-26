@@ -32,7 +32,7 @@ namespace Web0526
             {
                 endpoints.MapGet("/", async context =>
                 {
-                    await context.Response.WriteAsync("Hello BTS!");
+                    await context.Response.WriteAsync("Hello Black Pink!");
                 });
             });
         }
